@@ -231,7 +231,12 @@ public class GenerateReportController implements Initializable {
         ObservableList<CheckBoxTreeItem<String>> SelectedSubSectionData = FXCollections.observableArrayList();
         String prevText = " ";
         
-        SelectedSectionData.addAll(TreeView.getRoot().getChildren());
+        try{
+            SelectedSectionData.addAll(TreeView.getRoot().getChildren());
+        }
+        catch (NullPointerException ex){
+            //User tried to change gender or name without selecting a report first.
+        }
         
         String HtmlText = "<!DOCTYPE html> <html><style>BODY {text-align: justify}</style><body>";
         

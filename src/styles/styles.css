@@ -1,10 +1,10 @@
 .buttonGeneral{
-    -fx-background-color: #25313E;
-    -fx-font-family: Calibri;
+    -fx-background-color: #f2f0ec;
+    -fx-font-family: Arial;
     -fx-font-weight: bold;
-    -fx-text-fill: #FFFFFF;
-    -fx-border-color: #25313E;
-    -fx-border-width: 0;
+    -fx-text-fill: #333333;
+    -fx-border-color: #333333;
+    -fx-border-width: 2;
     
 }
 .buttonGeneral:pressed{
@@ -12,25 +12,25 @@
 }
 
 .buttonGeneral:hover{
-    -fx-background-color: #808080;
+    -fx-background-color: #d6cfc2;
 }
 
 .background{
-    -fx-background-color:  #78aa94;
+    -fx-background-color:  #f2f0ec;
     -fx-border-color: #25313E;
     -fx-border-width: 2;
 }
 
 .mainText{
-    -fx-text-fill: #25313E;
-    -fx-font-family: Calibri;
+    -fx-text-fill: #333333;
+    -fx-font-family: Arial;
     -fx-font-weight: bold;
 }
 
 .button1{
-    -fx-background-color:  #90AB6F;
-    -fx-font-family: Calibri;
-    -fx-text-fill: #FFFFFF;
+    -fx-background-color:  #f58426;
+    -fx-font-family:  Arial;
+    -fx-text-fill: #333333;
     -fx-font-size: 27;
     -fx-border-width: 0;
     -fx-border-color: #25313E;
@@ -39,13 +39,13 @@
     -fx-border-width: 2;
 }
 .button1:hover{
-    -fx-background-color:  #c0cfaf;
+    -fx-background-color:  #fcd5b6;
 }
 
 .button2{
-    -fx-background-color:  #C6AC76;
-    -fx-font-family: Calibri;
-    -fx-text-fill: #FFFFFF;
+    -fx-background-color:  #70cde3;
+    -fx-font-family: Arial;
+    -fx-text-fill: #333333;
     -fx-font-size: 27;
     -fx-border-width: 0;
     -fx-border-color: #25313E;
@@ -54,13 +54,13 @@
     -fx-border-width: 2;
 }
 .button2:hover{
-    -fx-background-color:  #d9c9a5;
+    -fx-background-color:  #bfe9f2;
 }
 
 .button3{
-    -fx-background-color:  #C07A5A;
-    -fx-font-family: Calibri;
-    -fx-text-fill: #FFFFFF;
+    -fx-background-color:  #cfd4d8;
+    -fx-font-family: Arial;
+    -fx-text-fill: #333333;
     -fx-font-size: 27;
     -fx-border-width: 0;
     -fx-border-color: #25313E;
@@ -69,12 +69,16 @@
     -fx-border-width: 2;
 }
 .button3:hover{
-    -fx-background-color:  #d5a690;
+    -fx-background-color:  #d5d9dd;
 }
 
 .combobox .cell{
-    -fx-text-fill: #FFFFFF;
-    -fx-background-color:  #25313E;
-    -fx-font-family: Calibri;
+    -fx-text-fill: #333333;
+    -fx-background-color:  #f2f0ec;
+    -fx-font-family: Arial;
     -fx-font-weight: bold;
+}
+
+.combobox .cell:hover{
+    -fx-background-color:  #d6cfc2;
 }
